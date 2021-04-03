@@ -1,0 +1,125 @@
+:root{
+    --fuenteheading: 'Roboto', sans-serif;
+    --fuenteparrafo: 'Open Sans', sans-serif;
+
+    --primario: #A8DADC;
+    --letra: #1D3557;
+    --blanco: #fff;
+    --negro: #000;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1rem = 10px **/
+}
+*, *::before, *::after{ 
+    box-sizing: inherit;
+} 
+
+body{
+    font-family: var(--fuenteparrafo);
+    font-size: 16px;
+    line-height: 2;
+}
+
+/** Globales**/
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    font-family: var(--fuenteheading);
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 28px;
+}
+img{
+    max-width: 100%;
+}
+
+/** Utilidades **/
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.centrar-texto{
+    text-align: center;
+}
+.izquierda {
+	float: left;
+}
+
+.derecha {
+	float: right;
+}
+
+
+/* Header */
+header {
+	color:var(--negro);
+	margin-bottom: 30px;
+	background: var(--blanco);
+}
+
+header .contenedor {
+	overflow: hidden;
+}
+
+header .logo {
+	max-width: 300px;
+}
+
+header .logo a {
+	color: var(--letra);
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 28px;
+	line-height: 70px;
+}
+
+header .logo a:hover {
+	text-decoration: none;
+}
+header .menu {
+	display: inline-block;
+}
+
+header .menu ul {
+	list-style: none;
+}
+
+header .menu ul li {
+	display: inline-block;
+	line-height: 70px;
+}
+
+header .menu ul li a {
+	color: var(--letra);
+	display: block;
+	padding: 0px 20px;
+	font-weight: bold;
+}
+
+header .menu ul li a:hover {
+	background: #000;
+	text-decoration: none;
+}
+
+header .menu ul li a .icono {
+	margin-left: 15px;
+}
