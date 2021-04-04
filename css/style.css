@@ -4,11 +4,11 @@
     --fuenteOpenSans: 'Open Sans', sans-serif;
 	--fuenteRaleway: 'Raleway', sans-serif;
 
-    --colorPrimario: #A8DADC;
+	--colorPrimario: #3A506B;
 	--colorPrimario1: #F2F4F8;
-	--colorletra1: #E98686;
-	--colorSecundario: #3A506B;
+    --colorSecundario: #A8DADC;
     --colorLetra: #0B132B;
+	--colorletra1: #E98686;
     --blanco: #fff;
     --negro: #000;
 }
@@ -71,6 +71,28 @@ img{
     max-width: 100%;
 }
 
+/** Botones **/
+.btn{
+    display: block;
+    font-family: var(--fuenteRoboto);
+    color: var(--colorPrimario1);
+	background: var(--colorLetra);
+	border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+	background: var(--colorletra1);
+	color: var(--colorLetra);
+}
+
 /** Utilidades **/
 .no-margin{
     margin: 0;
@@ -84,7 +106,9 @@ img{
 .izquierda {
 	float: left;
 }
-
+.bold{
+	font-weight: 700;
+}
 .derecha {
 	float: right;
 }
@@ -132,7 +156,7 @@ img{
 
 /* Footer */
 .bgFooter{
-	background: var(--colorSecundario);
+	background: var(--colorPrimario);
 	border: 0;
 	height: 250px;
 
@@ -180,13 +204,10 @@ img{
 	font-weight: 800;
 }
 
-
-
-
 /* Menú */
 
 .menu{
-	background: var(--colorSecundario);
+	background: var(--colorPrimario);
 }
 
 .menu ul{
@@ -212,7 +233,7 @@ img{
 }
 
 .menu__enlace p:hover{
-	color: var(--colorPrimario);
+	color: var(--colorSecundario);
 }
 
 .todos{
@@ -313,4 +334,179 @@ img{
 	color: var(--colorletra1);
 	text-align: center;
 }
+
+/* Formulario */
+.formulario{
+	padding: 30px;
+	margin-bottom: 30px;
+	height: 500px;
+}
+
+.formulario a,
+.formulario label{
+	font-family: var(--fuenteRaleway);
+	color: var(--colorLetra);
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"]{
+	margin-left: 20px;
+	padding: 15px;
+	width: 400px;
+	font-family: var(--fuenteRaleway);
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+
+.formulario .icono{
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 30px;
+	line-height: 18px;
+	display: inline-block;
+	color: var(--colorLetra);
+	vertical-align: top;
+}
+
+.form_group{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.form_check{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+.formulario label{
+	margin-left: 20px;
+}
+
+/* Checkbox */
+ .container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+  }
+  
+  .container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 30px;
+	width: 30px;
+	background-color: var(--blanco);
+	border: 1px solid var(--colorLetra);
+  }
+  
+  .container:hover input ~ .checkmark {
+	background-color: var(--colorPrimario1);
+  }
+  
+  .container input:checked ~ .checkmark {
+	background-color: var(--colorLetra);
+	color: var(--colorPrimario1);
+  }
+  
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  .container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	transform: rotate(45deg);
+  } 
+
+
+/* Mi cuenta y Registro */
+.bg_cuenta{
+	background-image: url('/img/cuenta.jpg');
+	width: 100%;
+	height: 759px;
+}
+
+.bg_registro{
+	background-image: url('/img/registrar.jpg');
+	width: 100%;
+	height: 759px;
+}
+
+.rectangulo{
+	background-color: rgba(255, 255, 255, 0.637);
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+
+.cuenta__nombre{
+	font-family: var(--fuenteOpenSans);
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--colorLetra);
+	text-align: center;
+	font-size: 30px;
+	padding-top: 70px;
+	margin: 0;
+}
+
+.registro__nombre{
+	font-family: var(--fuenteOpenSans);
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--colorLetra);
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.centrar-btn{
+	margin: 40px 310px 40px 310px;
+}
+.centrar-btn1{
+	margin: 20px 310px 20px 310px;
+}
+.no-cuenta{
+	margin-left: 390px;
+}
+
+.olvidar-cuenta{
+	margin-left: 220px;
+}
+
+
+
+
 

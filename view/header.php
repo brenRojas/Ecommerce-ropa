@@ -19,9 +19,9 @@
         <a href="index.php"><h1 class="logo no-margin izquierda">Coraly</h1></a>
 
         <nav class="navegacion derecha">
-            <a href="#" class="navegacion__enlace"><i class="icono fas fa-user"></i><p>mi cuenta</p></a>
-            <a href="#" class="navegacion__enlace"><i class="icono fas fa-shopping-cart"></i><p>mi carrito</p></a>
-            <a href="#" class="navegacion__enlace"><i class="icono fas fa-envelope"></i><p>Contacto</p></a>
+            <a href="../cuenta.php" class="navegacion__enlace"><i class="icono fas fa-user"></i><p>mi cuenta</p></a>
+            <a href="../carrito.php" class="navegacion__enlace"><i class="icono fas fa-shopping-cart"></i><p>mi carrito</p></a>
+            <a href="../nosotros.php" class="navegacion__enlace"><i class="icono fas fa-question-circle"></i><p>Nosotros</p></a>
         </nav>
     </header>
 
