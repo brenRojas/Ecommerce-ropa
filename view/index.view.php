@@ -1,12 +1,17 @@
 <!-- Header -->
 <?php require 'header.php'; ?>
 
-<!-- Index view -->
-    <section class="contenedor">
-        <ul class="slider">
-            <img class="slider__img" src="img/slider.jpg" alt="">
+<!-- Index.view -->
+
+    <!-- Slider -->
+    <div class="slider">
+        <ul>
+            <li><img src="img/slider1.jpg" alt=""></li>
+            <li><img src="img/slider2.jpg" alt=""></li>
+            <li><img src="img/slider3.jpg" alt=""></li>
+            <li><img src="img/slider4.jpg" alt=""></li>
         </ul>
-    </section>
+    </div>
 
 
 <!-- Footer -->
