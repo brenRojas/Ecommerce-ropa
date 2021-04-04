@@ -5,7 +5,10 @@
 	--fuenteRaleway: 'Raleway', sans-serif;
 
     --colorPrimario: #A8DADC;
-    --colorLetra: #1D3557;
+	--colorPrimario1: #F2F4F8;
+	--colorletra1: #E98686;
+	--colorSecundario: #3A506B;
+    --colorLetra: #0B132B;
     --blanco: #fff;
     --negro: #000;
 }
@@ -51,7 +54,12 @@ h1{
 	color: var(--colorLetra);
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
+	font-family: var(--fuenteOpenSans);
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
 }
 h3{
     font-size: 32px;
@@ -109,6 +117,10 @@ img{
 	color: var(--colorLetra);
 }
 
+.navegacion__enlace:hover{
+	font-size: 18px;
+}
+
 .navegacion__enlace p{
 	font-family: var(--fuenteRaleway);
 	margin: 0%;
@@ -118,10 +130,63 @@ img{
 	font-size: 25px;
 }
 
+/* Footer */
+.bgFooter{
+	background: var(--colorSecundario);
+	border: 0;
+	height: 250px;
+
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-items: flex-start;
+	padding-top: 40px;
+}
+
+.logo__footer{
+	color: var(--colorPrimario1);
+}
+
+.footer p,
+.footer .icono{
+	color: var(--blanco);
+	margin: 0;
+}
+
+.footer .icono{
+	font-size: 22px;
+}
+
+.footer p{
+	font-family: var(--fuenteRaleway);
+	font-size: 18px;
+}
+
+.otros__red{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.otros{
+	text-transform: uppercase;
+}
+
+.preguntas,
+.politicas{
+	font-weight: 800;
+}
+
+
+
+
 /* Menú */
 
 .menu{
-	background: var(--colorPrimario);
+	background: var(--colorSecundario);
 }
 
 .menu ul{
@@ -143,18 +208,18 @@ img{
 
 .menu__enlace p,
 .menu__enlace .fas{
-	color: var(--colorLetra);
+	color: var(--blanco);
 }
 
 .menu__enlace p:hover{
-	color: var(--blanco);
+	color: var(--colorPrimario);
 }
 
 .todos{
 	display: ruby;
 }
 
-/* Slidershow */
+/* Slideshow */
 .slider{
     width: 100%;
     margin: 0;
@@ -169,7 +234,7 @@ img{
     /* Animar */
     animation: cambio 20s infinite alternate;
     /* Animacion inicia lenta */
-    animation-timing-function: ease-in;
+    animation-timing-function: ease;
 }
 
 .slider li{
@@ -201,5 +266,51 @@ img{
     100%{ margin-left: -300%;}
 }
 
+/* Productos Recomendados index */
+.sombra{
+    box-shadow: 0px 5px 15px 0px rgba(199, 206, 211, 0.54);
+    background-color: var(--blanco);
+    padding: 40px;
+    border-radius: 5px;
+}
 
+.grid{ /* Productos */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+@media(min-width: 768px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.producto{
+	border-radius: 5px;
+	background: var(--colorPrimario1);
+	padding: 15px;
+}
+
+.producto__img{
+	border-radius: 5px;
+	width: 100%;
+	height: 80%;
+}
+
+.producto__nombre{
+	text-align: center;
+	font-size: 20px;
+	font-family: var(--fuenteRaleway);
+	font-weight: 400;
+	color: var(--colorLetra);
+}
+
+.producto__precio{
+	font-size: 18px;
+	font-family: var(--fuenteRoboto);
+	font-weight: 700;
+	color: var(--colorletra1);
+	text-align: center;
+}
 
