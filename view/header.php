@@ -27,7 +27,7 @@
 
     <div class=" menu">
         <ul class="contenedor">
-            <li class="menu__enlace"><a href="#"><p>Todas las categorias </p></a></li>
+            <li class="menu__enlace"><a href="../categorias.php"><p>Todas las categorias </p></a></li>
             <li class="menu__enlace"><a href="#"><p>Blusas</p></i></a></li>
             <li class="menu__enlace"><a href="#"><p>Playeras</p></i></a></li>
             <li class="menu__enlace"><a href="#"><p>Pantalones</p></i></a></li>

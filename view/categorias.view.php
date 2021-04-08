@@ -1,23 +1,12 @@
-<!-- Header -->
 <?php require 'header.php'; ?>
 
-<!-- Index.view -->
-
-    <!-- Slider -->
-    <div class="slider">
-        <ul>
-            <li><img src="img/slide1.jpg" alt=""></li>
-            <li><img src="img/slide2.jpg" alt=""></li>
-            <li><img src="img/slide3.jpg" alt=""></li>
-            <li><img src="img/slide4.jpg" alt=""></li>
-        </ul>
-    </div>
-
-    <!-- Lista de recomendaciones -->
     <main class="contenedor sombra">
-        <h2 class="titulo">Productos Recomendados</h2>
+        <!-- Titulo temporal -->
+        <h1 class="titulo centrar-texto">Todas las Categorias</h1>
+
+        <!-- Lista de Productos -->
         <div class="grid">
-            <!-- Articulo -->
+            <!-- Articulos Temporales -->
             <div class="producto">
                 <a href="#">
                     <img src="img/0.jpg" alt="imagen-producto" class="producto__img">
@@ -99,6 +88,11 @@
             </div>
         </div>
 
+        <div class="paginacion">
+				<a href="#" class="izquierda"><i class="icono fa fa-long-arrow-left"></i> Pagina Anterior</a>
+				<a href="#" class="derecha">Pagina Siguiente <i class="icono fa fa-long-arrow-right"></i></a>
+		</div>
+
     </main>
-<!-- Footer -->
+
 <?php require 'footer.php'; ?>

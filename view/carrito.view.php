@@ -1,7 +1,7 @@
 <?php require 'header.php'; ?>
 
     <main class="contenedor sombra">
-    <p class="micarrito__nombre">Mi Carrito</p>
+    <p class="titulo centrar-texto">Mi Carrito</p>
         <div class="contenedor_tabla">
             <table id="table" class="tabla">
                     <tr class="table__color">

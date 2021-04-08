@@ -3,7 +3,7 @@
     <main class="contenedor bg_cuenta sombra">
         <div class="rectangulo">
             <div class="cuenta">
-                <p class="cuenta__nombre">Iniciar Sesion</p>
+                <p class="titulo centrar-texto">Iniciar Sesion</p>
                 <form class="formulario" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
                     <!-- Usuario -->

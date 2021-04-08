@@ -3,7 +3,7 @@
     <main class="contenedor bg_registro sombra">
         <div class="rectangulo">
             <div class="cuenta">
-                <p class="registro__nombre">Registrarse</p>
+                <p class="centrar-texto titulo">Registrarse</p>
                 <form class="formulario" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
                     <!-- Usuario -->
