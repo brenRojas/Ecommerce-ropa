@@ -51,23 +51,12 @@ h2, h3, h4{
 }
 h1{
 	font-weight: 700;
-	font-family: var(--fuentecursiva);
     font-size: 60px;
 	color: var(--colorLetra);
 }
-h2{
-    font-size: 30px;
-	font-family: var(--fuenteRaleway);
-	color: var(--colorLetra);
-	font-weight: 300;
-	text-transform: uppercase;
-	text-align: center;
-}
-h3{
-    font-size: 32px;
-}
-h4{
-    font-size: 28px;
+header h1,
+footer h1{
+	font-family: var(--fuentecursiva);
 }
 img{
     max-width: 100%;
@@ -123,6 +112,9 @@ img{
 .centrar-texto{
     text-align: center;
 }
+.derecha-texto{
+	text-align: end;
+}
 .izquierda {
 	float: left;
 }
@@ -135,6 +127,17 @@ img{
 .mayusculas{
 	text-transform: uppercase;
 }
+.titulo{
+	padding: 20px;
+	font-family: var(--fuenteOpenSans);
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--colorLetra);
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+}
+
 
 /* Header */
 .header {
@@ -473,7 +476,7 @@ img{
 .bg_cuenta{
 	background-image: url('/img/cuenta.jpg');
 	width: 100%;
-	height: 759px;
+	height: 650px;
 }
 
 .bg_registro{
@@ -485,29 +488,9 @@ img{
 .rectangulo{
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.637);
-	width: 90%;
+	width: 80%;
 	height: 90%;
 	margin: auto;
-}
-
-.cuenta__nombre, 
-.registro__nombre,
-.micarrito__nombre{
-	font-family: var(--fuenteOpenSans);
-	font-weight: 700;
-	text-transform: uppercase;
-	color: var(--colorLetra);
-	text-align: center;
-	font-size: 30px;
-	margin: 0;
-}
-
-.cuenta__nombre{
-	padding-top: 70px;
-}
-.registro__nombre,
-.micarrito__nombre{
-	padding-top: 20px;
 }
 
 .no-cuenta{
@@ -518,7 +501,6 @@ img{
 .olvidar-cuenta{
 	margin-left: 80px;
 	margin-bottom: 40px;
-
 }
 
 /* Carrito */
@@ -569,7 +551,39 @@ th{
 	margin-left: 10px;
 }
 
+/* --- Paginacion --- */
 
+.paginacion {
+	width: 100%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.paginacion a{
+	color: var(--colorLetra);
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 20px;
+	border-radius: 50px;
+	border:1px solid rgba(255,255,255,.2);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.paginacion a:hover {
+	border:1px solid #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.paginacion .izquierda .fa {
+	margin-right: 10px;
+}
+
+.paginacion .derecha .fa {
+	margin-left: 10px;
+}
 
 
 
