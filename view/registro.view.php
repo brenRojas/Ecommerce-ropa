@@ -34,9 +34,13 @@
                         </label>
                     </div>
                     
-                    <input type="submit" name="btn_registro" class="btn centrar-btn1" value="Registrar">
+                    <div class="centrar-texto">
+                        <input type="submit" name="btn_registro" class="btn" value="Registrar">
+                    </div>
 
-                    <a class="no-cuenta" href="cuenta.php">¿Ya tienes cuenta? <span class="bold"> Iniciar Sesión</span> </a>
+                    <div class="no-cuenta">
+                        <a href="cuenta.php">¿Ya tienes cuenta? <span class="bold"> Iniciar Sesión</span> </a>
+                    </div>
                 </form>
             </div>
         </div>

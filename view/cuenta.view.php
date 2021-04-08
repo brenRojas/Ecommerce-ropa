@@ -16,12 +16,17 @@
                         <i class="icono fas fa-lock"></i><input type="password" class="formulario__password" name="password" placeholder="Ingresar contraseña">
                     </div>
 
+                    <div class="olvidar-cuenta">
+                        <a href="#">¿Has olvidado tu contraseña?</a>
+                    </div>
+                     
+                    <div class="centrar-texto">
+                        <input type="submit" name="btn_ingresar centrar-texto" class="btn" value="Ingresar">
+                    </div>
 
-                    <a class="olvidar-cuenta" href="#">¿Has olvidado tu contraseña?</a>
-
-                    <input type="submit" name="btn_ingresar" class="btn centrar-btn" value="Ingresar">
-
-                    <a class="no-cuenta" href="registro.php">¿No tienes cuenta? <span class="bold"> Crear Cuenta</span> </a>
+                    <div class="no-cuenta">
+                        <a  href="registro.php">¿No tienes cuenta? <span class="bold"> Crear Cuenta</span> </a>
+                    </div>
                 </form>
             </div>
         </div>

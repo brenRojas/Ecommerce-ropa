@@ -2,17 +2,17 @@
 	<div class="contenedor footer">
 		<a href="index.php"><h1 class="logo__footer no-margin">Coraly</h1></a>
 		<div>
-			<p class="preguntas">Preguntas Frecuentes</p>
-			<div class="otros__red"><i class="icono fab fa-facebook"></i><p>Facebook</p></div>
-			<div class="otros__red"><i class="icono fab fa-instagram"></i><p>Instagram</p></div>
-			<div class="otros__red"><i class="icono fas fa-envelope"></i><p>coraly@correo.com</p></div>
+			<a class="mayusculas preguntas" href="#">Preguntas Frecuentes</a>
+			<a class="otros__red" href="#"><i class="icono fab fa-facebook"></i>Facebook</a>
+			<a class="otros__red" href="#"><i class="icono fab fa-instagram"></i>Instagram</a>
+			<a class="otros__red" href="#"><i class="icono fas fa-envelope"></i>coraly@correo.com</a>
 		</div>
-		<div class="otros">
-			<p class="politicas">Políticas de Compra</p>
-			<p>Envios</p>
-			<p>Medios de Pago</p>
-			<p>Cambios y Devoluciones</p>
-			<p>Aviso de Privacidad</p>
+		<div class="mayusculas">
+			<a class="politicas" href="#">Políticas de Compra<br></a>
+			<a href="#">Envíos<br></a>
+			<a href="#">Medios de Pago<br></a>
+			<a href="#">Cambios y Devoluciones <br></a>
+			<a href="#">Aviso de Privacidad <br></a>
 		</div>
 	</>
 </footer>

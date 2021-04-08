@@ -77,6 +77,26 @@
                     </div>
                 </a>
             </div>
+            <!-- Articulo -->
+            <div class="producto">
+                <a href="#">
+                    <img src="img/6.jpg" alt="imagen-producto" class="producto__img">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre no-margin">NombreProducto</p>
+                        <p class="producto__precio no-margin">$100.00</p>
+                    </div>
+                </a>
+            </div>
+            <!-- Articulo -->
+            <div class="producto">
+                <a href="#">
+                    <img src="img/7.jpg" alt="imagen-producto" class="producto__img">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre no-margin">NombreProducto</p>
+                        <p class="producto__precio no-margin">$100.00</p>
+                    </div>
+                </a>
+            </div>
         </div>
 
     </main>
