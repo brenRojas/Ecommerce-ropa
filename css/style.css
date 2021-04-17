@@ -528,6 +528,12 @@ table{
 	
 }
 
+/* Datos de Cuenta*/
+.cuenta_tabla{
+	width: 80%;
+	margin-left: 60px;
+}
+
 .table__color{
 	background-color: var(--colorPrimario1);
 }
