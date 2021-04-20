@@ -1,5 +1,9 @@
 <?php require 'header.php'; ?>
+<!--?php session_start();
 
+	if(!isset($_SESSION['k_username'])) 
+		header("Location:mi_cuenta.php");
+?-->
     <main class="contenedor bg_cuenta sombra">
         <div class="rectangulo">
             <div class="cuenta">

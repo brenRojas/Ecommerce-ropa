@@ -4,7 +4,7 @@
         <div class="rectangulo">
             <div class="cuenta">
                 <p class="titulo centrar-texto">Iniciar Sesion</p>
-                <form class="formulario" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+                <form class="formulario" action="validar_login.php" method="post">
 
                     <!-- Usuario -->
                     <div class="form_group">
