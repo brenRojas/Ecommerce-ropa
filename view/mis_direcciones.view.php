@@ -3,19 +3,29 @@
     <main class="contenedor bg_cuenta sombra">
         <div class="rectangulo">
             <div class="cuenta">
-                <p class="titulo centrar-texto">Mi Cuenta</p>
+                <p class="titulo centrar-texto">Mis Direcciones</p>
                 <!-- Mis datos -->
                 <div class="form_group">
-                    <i class="icono fas fa-user" href="../mi_cuenta.php"></i>
+                    <table class="table cuenta_tabla">
+                        <tr>
+                            <td>
+                                <a href="mi_cuenta.php"><i class="icono fas fa-user"></i></a>
+                            </td>
+                        </tr>
                 </div>
                 
                 <!-- Direcciones -->
                 <div class="form_group">
-                    <i class="fas fa-address-book"></i>
-                    <div>
-                        Dirección:</br>
-                        Calle 31 ote 2560 72400, Col Anzurez, Puebla, Puebla
-                    </div>
+                        <tr>
+                            <td>
+                                <a href="#"><i class="fas fa-address-book"></i></a>
+                            </td>
+                            <td>
+                                Dirección:</br>
+                                Calle 31 ote 2560 72400, Col Anzurez, Puebla, Puebla
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
